@@ -1,4 +1,5 @@
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class AulaArray {
     public static void main(String[] args) {
@@ -46,9 +47,15 @@ public class AulaArray {
 
     }
 
+    public static void preencherVetor(int[] v) {
+        Scanner scanner = new Scanner(System.in);
 
+        for (int i=0; i<V.length; i++) {
+            System.out.println("digite o valor do vetor");
 
+        }
 
+    }
 
     }
 }
